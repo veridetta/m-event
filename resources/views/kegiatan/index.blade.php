@@ -114,7 +114,7 @@
                                             placeholeder="Nama Narasumber" required>
                                             <option value="">Pilih Nama Narasumber</option>
                                                 @foreach ($narasumber as $nara)
-                                                    <option value="{{ $nara->id }}">{{ $nara->name }}</option>
+                                                    <option value="{{ $nara->id }}">{{ $nara->nama }}</option>
                                                 @endforeach
                                             </select>
                                         </select>
